@@ -1,0 +1,23 @@
+{
+  "name": "hyperscript-tmlanguage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dz4k/hyperscript-tmlanguage.git"
+  },
+  "author": "Deniz Akşimşek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dz4k/hyperscript-tmlanguage/issues"
+  },
+  "homepage": "https://github.com/dz4k/hyperscript-tmlanguage#readme",
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "plist2": "^1.1.2"
+  }
+}
