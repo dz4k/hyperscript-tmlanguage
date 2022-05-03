@@ -45,7 +45,7 @@ repository:
         match: &commandStarts >-
           (?x)
           \b(
-            add|remove|put|async|call|called|get|hide|measure|add|async|call|get|hide|measure|
+            add|remove|put|async|call|get|hide|measure|add|async|call|get|hide|measure|
             return|send|settle|set|show|take|throw|toggle\s+between|toggle|
             transition|trigger|wait\s+for|wait|fetch|tell|go|increment|
             decrement|halt|make\s+an|make\s+a|make|log|default|continue|breakpoint
@@ -60,7 +60,7 @@ repository:
         match: >-
           (?x)
           \b(
-            in|from|to|with|over|into|before|after|
+            in|from|to|with|over|into|before|after|called|
             at\s+end\s+of|at\s+start\s+of|is\s+an|is\s+a|is\s+not|
             is|am|as|and|or|no|closest|the|of|first|last|random|on|
             seconds|milliseconds|(?<=\s)s|(?<=\s)ms)\b|
