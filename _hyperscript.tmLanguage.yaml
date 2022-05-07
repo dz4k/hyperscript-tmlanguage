@@ -39,7 +39,7 @@ repository:
             catch|if|else|otherwise
             repeat\s+forever|repeat\s+for|repeat\s+in|repeat\s+while|
             repeat\s+until\s+event|repeat\s+until|repeat|times|index|
-            then|end|while|until|unless|for
+            then|end|while|until|unless|for|finally|
           )\b
       - name: keyword.other.command._hyperscript
         match: &commandStarts >-
