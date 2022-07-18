@@ -3,6 +3,8 @@
   "name": "_hyperscript",
   "patterns": [
     { "name": "comment.line.double-dash._hyperscript", "begin": "--", "end": "$" },
+    { "name": "comment.line.double-slash._hyperscript", "begin": "\\/\\/", "end": "$" },
+    { "name": "comment.line.multi-line._hyperscript", "begin": "\\/\\*", "end": "\\*\\/" },
     { "include": "#possessive" },
     { "include": "#strings" },
     { "include": "#keywords" },
